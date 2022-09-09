@@ -18,11 +18,11 @@ export default function Document() {
         <Main />
         <NextScript />
 
-        <Script src="js/jquery.min.js"></Script>
-        <Script src="js/bootstrap.bundle.min.js"></Script>
-        <Script src="js/jquery-3.0.0.min.js"></Script>
-        <Script src="js/jquery.mCustomScrollbar.concat.min.js"></Script>
-        <Script src="js/custom.js"></Script>
+        <Script src="js/jquery.min.js" strategy='beforeInteractive'></Script>
+        <Script src="js/bootstrap.bundle.min.js" strategy='beforeInteractive'></Script>
+        <Script src="js/jquery-3.0.0.min.js" strategy='beforeInteractive'></Script>
+        <Script src="js/jquery.mCustomScrollbar.concat.min.js" strategy='beforeInteractive'></Script>
+        <Script src="js/custom.js" strategy='beforeInteractive'></Script>
       </body>
     </Html>
   )
